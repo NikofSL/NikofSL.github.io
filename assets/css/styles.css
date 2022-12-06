@@ -335,6 +335,26 @@ img {
   width: 20%;
 }
 
+.skills__windows {
+  width: 70%;
+}
+
+.skills__linux {
+  width: 80%;
+}
+
+.skills__bash {
+  width: 60%;
+}
+
+.skills__arduino {
+  width: 57%;
+}
+
+.skills__network {
+  width: 67%;
+}
+
 .skills__img {
   border-radius: .5rem;
 }
@@ -355,8 +375,48 @@ img {
 }
 
 .work__img img:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
+/* ===== GAMES   =====*/
+.games {
+	margin: 0 auto;
+	padding: 10px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.games_btn{
+	width: 20%;
+	font-size: var(--normal-font-size);
+	font-weight: var(--font-semi);
+	padding: 1rem;
+	border-radius: .5rem;
+	border: 1.5px solid var(--second-color);
+	outline: none;
+	margin-bottom: var(--mb-4);
+	display: inline-block;
+	background-color: var(--first-color);
+	color: #fff;
+	padding: .75rem 2.5rem;
+	font-weight: var(--font-semi);
+	border-radius: .5rem;
+	transition: .3s;
+}
+.games__input{
+	width: 80%;
+	font-size: var(--normal-font-size);
+	font-weight: var(--font-semi);
+	padding: 1rem;
+	border-radius: .5rem;
+	border: 1.5px solid var(--second-color);
+	outline: none;
+	margin-bottom: var(--mb-4);
+}
+
+.games_btn:hover {
+  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
+
 
 /* ===== CONTACT =====*/
 .contact__input {
@@ -368,6 +428,7 @@ img {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+  resize: none;
 }
 
 .contact__button {

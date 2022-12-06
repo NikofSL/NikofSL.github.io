@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\css",
+    "\\assets\\fonts"
   ],
-  "SelectedNode": "\\C:\\Users\\drako\\Source\\Repos\\NikofSL.github.io",
+  "SelectedNode": "\\assets\\css\\styles.css",
   "PreviewInSolutionExplorer": false
 }
